@@ -1,0 +1,31 @@
+RAM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+dday                                                              0x0166      14
+_base_y                                                           0x0174       4
+_lcd_x                                                            0x0178       1
+_lcd_y                                                            0x0179       1
+_lcd_maxx                                                         0x017A       1
+
+EEPROM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                          Register  Size
+--------------------------------------------------------------------------------
+hour                                                              R5           1
+min                                                               R4           1
+sec                                                               R7           1
+ukd                                                               R6           1
+hour1                                                             R9           1
+min1                                                              R8           1
+ukd1                                                              R11          1
+charge                                                            R10          1
+menu                                                              R13          1
+timelight                                                         R12          1
+clockon                                                           R2.0      1bit
+on                                                                R2.1      1bit
+light                                                             R2.2      1bit
+menustart                                                         R2.3      1bit
+show                                                              R2.4      1bit
